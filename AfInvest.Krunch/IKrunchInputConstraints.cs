@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AfInvest.Krunch
 {
-    public class Class1
+    public interface IKrunchInputConstraints
     {
+        bool IsKrunchInputValid();
     }
 }

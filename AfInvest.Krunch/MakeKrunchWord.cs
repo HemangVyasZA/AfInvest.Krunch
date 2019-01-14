@@ -48,11 +48,7 @@ namespace AfInvest.Krunch
             {
                 RemoveBlanks();
             }
-            //var removenewLine = from ch in KrunchedPhrase
-            //                 where ch != 10 && ch != 13
-            //                 select ch;
             KrunchedPhrase= KrunchedPhrase.Replace("\r\n", " ");
-           // KrunchedPhrase = new string(removenewLine.ToArray());
         }
 
         private void RemoveVowels()
